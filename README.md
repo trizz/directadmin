@@ -2,6 +2,8 @@
 
 This library provides a simple abstract DirectAdmin class that can be used to create (simple) "components" to consume the DirectAdmin API.
 
+[![Build Status](https://travis-ci.org/trizz/directadmin.svg?branch=master)](https://travis-ci.org/trizz/directadmin)
+
 ### How to use
 
 There are two ways to use this library:
