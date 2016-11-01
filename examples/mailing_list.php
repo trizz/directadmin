@@ -1,4 +1,5 @@
 <?php
+
 // Include the required files.
 require_once '../src/DirectAdmin.php';
 require_once '../src/MailingList.php';
@@ -87,6 +88,7 @@ $daMailingList->deleteList($testMailingList);
 echo "\n\n";
 
 // Little helper to format bold text.
-function bold($text) {
+function bold($text)
+{
     return sprintf("\033[1m%s\033[0m", $text);
 }

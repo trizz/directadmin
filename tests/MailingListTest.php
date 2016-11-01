@@ -1,4 +1,5 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 
 class MailingListTest extends TestCase
@@ -23,13 +24,13 @@ class MailingListTest extends TestCase
                 [
                     'name' => 'testList',
                     'subscribers' => '1',
-                    'digest_subscribers' => '2'
+                    'digest_subscribers' => '2',
                 ],
                 [
                     'name' => 'testList2',
                     'subscribers' => '3',
-                    'digest_subscribers' => '4'
-                ]
+                    'digest_subscribers' => '4',
+                ],
             ],
             $class->lists()
         );
