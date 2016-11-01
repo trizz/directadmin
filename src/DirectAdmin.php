@@ -75,10 +75,10 @@ abstract class DirectAdmin
         // Create a cookie jar.
         $cookieJar = tempnam('/tmp', 'daMailingList');
         // Make list of POST fields
-        $fields = array(
+        $fields = [
             'username' => urlencode($this->username),
-            'password' => urlencode($this->password)
-        );
+            'password' => urlencode($this->password),
+        ];
 
         // Add the domain to the query string (this one is always required).
         $queryString['domain'] = $this->domain;

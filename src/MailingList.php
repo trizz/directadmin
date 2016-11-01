@@ -8,7 +8,7 @@ class MailingList extends DirectAdmin
      * Get a list of all available mailing lists. Results are returned as an array with the following keys:
      * - name
      * - subscribers
-     * - digest_subscribers
+     * - digest_subscribers.
      *
      * @return array Array containing the mailing lists and subscription counts.
      */
@@ -107,7 +107,7 @@ class MailingList extends DirectAdmin
             'action' => 'add',
             'name' => $list,
             'type' => $type,
-            'email' => implode(',', $addresses)
+            'email' => implode(',', $addresses),
         ]);
     }
 

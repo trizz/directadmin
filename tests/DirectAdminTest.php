@@ -1,4 +1,5 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 
 class DirectAdminTest extends TestCase
@@ -12,7 +13,7 @@ class DirectAdminTest extends TestCase
                 'user',
                 'pass',
                 'domain.com',
-                1234
+                1234,
             ]
         );
 
